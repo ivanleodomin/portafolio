@@ -1,10 +1,133 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&display=swap");
+
+
+
 .home {
   height: 100%;
-  width: 100%;
-  font-size: 3rem;
+  width: 100vw;
+  font-size: 2rem;
   color: #ffff;
-  background-image: url("https://i0.wp.com/wallpapersfortech.com/wp-content/uploads/2021/03/Aesthetic-Minimalist-Wallpaper.png?fit=1920%2C1080&ssl=1");
-  background-repeat: repeat-y;
   font-family: "Hind Siliguri", sans-serif;
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+  left: 20%
+}
+
+.title{
+    width: 100%;
+}
+
+.title h1{
+    width: 100%;
+    height: 100%;
+}
+
+
+.initial{
+  color:#ffffff
+}
+
+.button-home-pushable {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-home-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-home-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(
+    to left,
+    #a30036 92%,
+    #52001b 0%,
+    #a30036 8%,
+    #52001b 100%
+  );
+}
+
+.button-home-front {
+  display: block;
+  position: relative;
+  padding: 12px 27px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: white;
+  background: #f00065;;
+  will-change: transform;
+  transform: translateY(-4px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+@media (min-width: 768px) {
+  .button-home-front {
+    font-size: 1.25rem;
+    padding: 12px 42px;
+  }
+}
+
+.button-home-pushable:hover {
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+}
+
+.button-home-pushable:hover .button-home-front {
+  transform: translateY(-6px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-home-pushable:active .button-home-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+
+.button-home-pushable:hover .button-home-shadow {
+  transform: translateY(4px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-home-pushable:active .button-home-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+
+.button-home-pushable:focus:not(:focus-visible) {
+  outline: none;
 }

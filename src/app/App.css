@@ -1,6 +1,6 @@
 .content{
     margin-left: 5rem;
-    padding: 1rem;
+    padding-left: 1rem;
 }
 
 /* Small screens */
@@ -8,5 +8,7 @@
     .content{
         margin-left: 0;
         padding: 0;
+        margin-bottom: 5rem;
+        padding-bottom: 1rem;
     }
 }

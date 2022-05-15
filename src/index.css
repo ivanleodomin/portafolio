@@ -6,6 +6,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  background-color: #424246;
+  /*
+  background-image: url("https://i0.wp.com/wallpapersfortech.com/wp-content/uploads/2021/03/Aesthetic-Minimalist-Wallpaper.png?fit=1920%2C1080&ssl=1");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+  */
+  background-color: #e5e5f7;
+  opacity: 1;
+  background-image: radial-gradient(#5f5f5f 2px, transparent 2px),
+    radial-gradient(#969696 2px, #424246 2px);
+  background-size: 80px 80px;
+  background-position: 0 0, 40px 40px;
+
+  height: 100vh;
+  width: 100vh;
 }
 
 code {
@@ -14,7 +30,7 @@ code {
 }
 body {
   color: black;
-  background-color: #060708;
+  background-color: #15151b;
   margin: 0;
   padding: 0;
 }
