@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&display=swap");
+.home {
+  height: 100%;
+  width: 100%;
+  font-size: 3rem;
+  color: #ffff;
+  background-image: url("https://i0.wp.com/wallpapersfortech.com/wp-content/uploads/2021/03/Aesthetic-Minimalist-Wallpaper.png?fit=1920%2C1080&ssl=1");
+  background-repeat: repeat-y;
+  font-family: "Hind Siliguri", sans-serif;
+}

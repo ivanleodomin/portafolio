@@ -67,7 +67,7 @@
   color: #df49a6;
 }
 
-.active{
+.active {
   background: var(--bg-secondary);
 }
 
@@ -98,6 +98,10 @@
   position: absolute;
   left: -999px;
   transition: var(--transition-speed);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .navbar:hover .logo svg {

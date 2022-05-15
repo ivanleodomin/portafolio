@@ -2,8 +2,8 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 //Components
 import Navbar from "../components/Navbar";
-import About from "../components/About/";
-import Home from "../components/Home/";
+import About from "../components/About";
+import Home from "../components/Home";
 import FormContact from "../components/FormContact";
 import MyPorjects from "../components/MyPorjects";
 import Experiences from "../components/Experiences"
