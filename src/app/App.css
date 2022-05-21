@@ -1,6 +1,8 @@
 .content{
     margin-left: 5rem;
     padding-left: 1rem;
+    width: 100vw;
+    overflow: hidden;
 }
 
 /* Small screens */
