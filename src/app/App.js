@@ -20,6 +20,7 @@ function App() {
           <Route path="/my-projects" element={<MyPorjects />} />
           <Route path="/talk-me" element={<FormContact />} />
         </Routes>
+        <Robot/>
     </div>
   );
 }

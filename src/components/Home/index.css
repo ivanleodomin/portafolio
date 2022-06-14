@@ -2,7 +2,7 @@
 @import url("http://fonts.cdnfonts.com/css/games");
 
 .home {
-  font-size: 4vw;
+  font-size: calc(34px + 1.5vw);
   color: #ffff;
   font-family: "Games", sans-serif;
   overflow: hidden;
@@ -13,6 +13,8 @@
   width: 40vw;
   margin-top: 7%;
   border: 0.5px solid gray;
+  min-width: 500px;
+  min-height: 350px;
 }
 .blur {
   overflow: hidden;
@@ -24,6 +26,8 @@
   -webkit-filter: blur(9px);
   position: absolute;
   z-index: -1;
+  min-width: 500px;
+  min-height: 350px;
 }
 
 .title {
@@ -131,4 +135,26 @@
 
 .button-home-pushable:focus:not(:focus-visible) {
   outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    padding: 5px;
+    min-width: 470px;
+    min-height: 300px;
+    margin: 50px 10px 0 10px;
+  }
+
+  .blur {
+    min-width: 432px;
+    min-height: 300px;
+    margin: 50px 10px 0 10px;
+    height: 57vw;
+    border-radius: 30px;
+  }
+
+  .title {
+    font-size: 8vw;
+    margin-bottom: 9px;
+  }
 }

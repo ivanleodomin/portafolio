@@ -1,5 +1,5 @@
 import "./index.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 //commons
 import NavbarItem from "../../commons/NavbarItem";
 import MenuButton from "../../commons/MenuButton";
